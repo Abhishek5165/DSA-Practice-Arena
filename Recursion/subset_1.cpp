@@ -1,5 +1,5 @@
 
-1️⃣Backtracking (Recursive Approach)🤓:  TC - O(n^2 * n)
+// Backtracking (Recursive Approach)🤓:  TC - O(n^2 * n)
 
 class Solution {
 public:
@@ -24,8 +24,8 @@ public:
     }
 };
 
-
-2️⃣Bit Manipulation😎:  
+️
+// Bit Manipulation😎:  
 
 
 class Solution {
@@ -53,7 +53,7 @@ public:
 };
 
 
-3️⃣Iterative Approach (Generating All Subsets)😎:
+// Iterative Approach (Generating All Subsets)😎:
 
 class Solution {
 public:
