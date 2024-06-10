@@ -1,3 +1,6 @@
+// Time Complexity: O(N).
+// Auxiliary Space: O(1).
+
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -14,4 +17,27 @@ while(current!=NULL){
 head = prev;
 return head;
 }
+};
+
+
+// using Recursion ---------------------
+
+//  Time Complexity: O(N).
+//  Auxiliary Space: O(N).
+
+class Solution
+{
+    public:
+    
+    struct Node* reverseList(struct Node *head)
+    {
+     if(head == NULL || head->next == NULL){
+     return head;
+     }
+     Node*temp = reverseList(head->next);
+     head->next->next = head;
+     head->next = NULL;
+     
+     return temp;
+    }
 };
