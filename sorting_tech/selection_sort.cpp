@@ -1,4 +1,4 @@
-// O(N2), (where N = size of the array), for the best, worst, and average cases.
+// O(N^2), (where N = size of the array), for the best, worst, and average cases.
 
 // Space Complexity = O(1)
 
@@ -41,9 +41,7 @@ Simple and easy to understand.Works well with small datasets.
     The default implementation of the Selection Sort Algorithm is not stable.However,
     it can be made stable.Please see the stable Selection Sort for details.
 
-        Q2.Is Selection Sort Algorithm in
-        - place
-    ?
+        Q2.Is Selection Sort Algorithm in - place?
 
     Yes,
     Selection Sort Algorithm is an in - place algorithm, as it does not require extra space.
