@@ -1,3 +1,6 @@
+// Time Complexity : O(n)
+// Space Complexity : O(n)
+
 // using Recursion ......
 
 #include <bits/stdc++.h>
@@ -20,6 +23,9 @@ vector<int> preOrder(TreeNode<int> *root)
     Preorder(root, ans);
     return ans;
 }
+
+// Time Complexity : O(n)
+// Space Complexity : O(n)
 
 // using one stack ....
 

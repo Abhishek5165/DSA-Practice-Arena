@@ -1,5 +1,8 @@
 // using Recursion ......
 
+// Time Complexity : O(n)
+// Space Complexity : O(n)
+
 void Inorder(TreeNode *root,vector<int>&I){
 
     if(root==NULL){
@@ -17,7 +20,8 @@ vector<int> getInOrderTraversal(TreeNode *root)
     return I;
 }
 
-
+// Time Complexity : O(n)
+// Space Complexity : O(n)
 
 // using stack ......
 

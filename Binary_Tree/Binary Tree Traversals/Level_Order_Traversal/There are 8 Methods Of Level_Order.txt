@@ -1,0 +1,39 @@
+There are total 8 methods for Level Order Traversal.
+
+* In which 5 are for Level_Order_Traversal.
+* And 3 are for Reverse_Level_Order_Traversal.
+
+N = Number of nodes present in the Binary Tree.
+
+Level Order Traversal ........
+
+1. Using Naive approch()                      TC = O(N^2) , SC = O(N) if the Recursion Stack is Considered else O(1).
+2. Using One Queue() (basic if else)          TC = O(N) , SC = O(N) 
+3. Using One Queue() (using 2 while loop)     TC = O(N) , SC = O(N)
+4. Using 2 Queues()                           TC = O(N) , SC = O(N) 
+5. Using Morris Traversal.                    TC = O(N) , SC = O(1)
+
+Reverse Level Order Traversal ........
+
+1. Using Naive(Recursion) approch()                      TC = O(N^2) , SC = O(N)
+2. Using One Queue & stack                               TC = O(N) , SC = O(N) 
+3  Using Hashmap                                         TC = O(N) , SC = O(N) 
+
+Level Order Traversal in the Spiral Form ........
+
+1. Using Recursion approch()                      TC = O(N^2) , SC = O(N) if the Recursion Stack is Considered else O(1).
+2. Using Two Stacks.                              TC = O(N) , SC = O(N) 
+3. Using Deque()                                  TC = O(N) , SC = O(N)
+4. Using One Queue & One stack                    TC = O(N) , SC = O(N) 
+5. Using One multimap & One stack (Hard One)      TC = O(NLogN) , SC = O(N) 
+
+Reverse Level_Order Traversal in the Spiral Form.......................
+
+1. Using Recursion approch()                      TC = O(N^2) , SC = O(N)
+2. Using One Queue & One stack                    TC = O(N) , SC = O(N) 
+
+
+*******    Spiral Traversal Clockwise and AntiClockwise (Hard One).   *********
+
+
+ 

@@ -1,0 +1,6 @@
+1. Using Recursion                                 TC = O(N) , SC = O(1) if you don't consider the size of recursion stack. 
+2. Using One Stack                                 TC = O(N) , SC = O(N) 
+3. Using Morris Traversal (Threaded and Non thread)     TC = O(N) , SC = O(1) 
+                     
+4. From given Inorder and Postorder  (when used recursion)    TC = O(N^2) , SC = O(N) 
+5. From given Inorder and Postorder  (when used map)          TC = O(N) , SC = O(N) 
