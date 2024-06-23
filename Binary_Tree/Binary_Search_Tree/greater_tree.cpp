@@ -8,7 +8,7 @@ public:
     
     if(root != NULL){
     bstToGst(root->right);
-    sum += root->val;
+    sum += root->val; 
     root->val = sum;
     bstToGst(root->left);
     }
