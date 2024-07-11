@@ -2,66 +2,52 @@
 // space complexity : O(n*m);
 
 class Solution {
-public: vector < vector < int >> spiralMatrix(int m, int n, 
-ListNode * head) {
-
-    int top = 0, down = m - 1;
-    int left = 0, right = n - 1;
-
-    int direction = 0;
-
-    vector < vector < int >> ans(m, vector < int > (n, -1));
-
-    if (head == nullptr) {
-      return ans;
+public:
+    
+    bool isValid(int i,int j,int n,int m){
+    
+    return !(i < 0 || j < 0 || i >=n  || j >= m);
     }
+    vector<vector<int>> spiralMatrixIII(int rows, int cols,
+    int rStart, int cStart) {
 
-    ListNode * temp = head;
+    vector<vector<int>>ans{{rStart,cStart}};
+    int size = rows*cols;
+    int len = 1;
+    int x = rStart, y = cStart;
 
-    while (temp != NULL) {
+    while(ans.size() < size){
 
-    if (direction == 0) {
-
-        for (int i = left; i <= right; i++) {
-          ans[top][i] = temp -> val;
-          temp = temp -> next;
-          if (temp == NULL)
-            break;
-        }
-        top++;
-      } 
-    else if (direction == 1) {
-        for (int i = top; i <= down; i++) {
-          ans[i][right] = temp -> val;
-          temp = temp -> next;
-          if (temp == NULL)
-            break;
-        }
-        right--;
-      }
-    else if (direction == 2) {
-        for (int i = right; i >= left; i--) {
-          ans[down][i] = temp -> val;
-          temp = temp -> next;
-          if (temp == NULL)
-            break;
-        }
-        down--;
-      } 
-    else if (direction == 3) {
-        for (int i = down; i >= top; i--) {
-          ans[i][left] = temp -> val;
-          temp = temp -> next;
-          if (temp == NULL)
-            break;
-        }
-        left++;
+    for(int j=1;j<=len;j++){
+    if(isValid(x,y+j,rows,cols)){
+    ans.push_back({x,y+j});
     }
-    direction++;
-    if(direction > 3){
-    direction = 0;
     }
+    y += len;
+
+    for(int j=1;j<=len;j++){
+    if(isValid(x+j,y,rows,cols)){
+    ans.push_back({x+j,y});
+    }
+    }
+    x += len;
+    len++;
+
+    for(int j=1;j<=len;j++){
+    if(isValid(x,y-j,rows,cols)){
+    ans.push_back({x,y-j});
+    }
+    }
+    y -= len;
+
+     for(int j=1;j<=len;j++){
+    if(isValid(x-j,y,rows,cols)){
+    ans.push_back({x-j,y});
+    }
+    }
+    x -= len;
+    len++;
     }
     return ans;
-  }
+    }
 };
