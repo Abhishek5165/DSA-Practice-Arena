@@ -1,7 +1,7 @@
 // Approch - 1 Using Memoization.
 
 // Time complexity : O(n*k);
-// Space complexity : O(n);
+// Space complexity : O(n*k);
 
 class Solution {
 public:
@@ -37,7 +37,7 @@ public:
 // Approch - 2 Using Bottom Up.
 
 // Time complexity : O(n*k);
-// Space complexity : O(n);
+// Space complexity : O(n*k);
 
 class Solution {
 public:
