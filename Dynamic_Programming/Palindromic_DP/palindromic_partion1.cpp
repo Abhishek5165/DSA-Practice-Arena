@@ -1,5 +1,5 @@
-// Time complexity : O(2^N * N);
-// Space complexity : O(1);
+// Time complexity : O(n^n) + O(n);
+// Space complexity : O(n*n);
 
 class Solution {
 public:
