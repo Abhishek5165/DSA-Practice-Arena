@@ -1,4 +1,4 @@
-// Time complexity : O(N^N + N);
+// Time complexity : O(N*N + N);
 // Space complexity : O(N*N);
 
 class Solution {

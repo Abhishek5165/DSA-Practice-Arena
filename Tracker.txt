@@ -1,0 +1,16 @@
+⦿ Date -> 26-July-2024
+
+🚩 Palindromic DP ..................
+
+1. Palindromic Substrings.
+2. Longest Palindromic Substring.
+3. Longest Palindromic Subsequence.
+4. Palindrome Partitioning - 1
+5. Palindrome Partitioning - 2
+
+⦿ Date -> 27-July-2024
+
+🚩 Palindromic DP ..................
+
+1. Sieve Algo (pow(x,n)).
+2. minimum number of characters to be inserted to convert it to a palindrome.
