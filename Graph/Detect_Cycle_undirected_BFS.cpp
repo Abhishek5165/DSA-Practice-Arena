@@ -1,5 +1,7 @@
+// Time complexity : O(V+E);
+// Space complexity : O(V);
+
 class Solution {
-    
   private:
   
   bool detect(int start,vector<int>&visited,vector<int> adj[]) {

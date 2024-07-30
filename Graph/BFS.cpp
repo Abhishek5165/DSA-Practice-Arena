@@ -1,3 +1,6 @@
+// Time complexity : O(V+E);
+// Space complexity : O(V);
+
 #include <bits/stdc++.h>
 vector<int> bfsTraversal(int n, vector<vector<int>> &adj) {
 

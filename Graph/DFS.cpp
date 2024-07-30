@@ -1,3 +1,6 @@
+// Time complexity : O(V+E);
+// Space complexity : O(V);
+
 class Solution
 {
 public:
@@ -11,7 +14,6 @@ public:
 
             if (!visited[it])
             {
-
                 dfs(it, ans, adj, visited);
             }
         }
