@@ -77,3 +77,65 @@ class Solution {
     return false;
     }
 };
+
+
+// DSU by Size array & path Compression.....
+
+
+class Solution {
+  public:
+    int find(int node,vector<int>&parent){
+    
+    if(node == parent[node]){
+    return node;
+    }
+    return parent[node] = find(parent[node],parent);
+    }
+    
+    void U(int u,int v,vector<int>&parent,vector<int>&size){
+    
+    int u_parent = find(u,parent);
+    int v_parent = find(v,parent);
+    
+    if(size[u_parent] > size[v_parent]){
+    parent[v_parent] = u_parent;
+    size[u_parent] += size[v_parent];
+    }
+    else if(size[u_parent] < size[v_parent]){
+    parent[u_parent] = v_parent;
+    size[v_parent] += size[u_parent];
+    }
+    
+    else{
+    parent[v_parent] = u_parent;
+    size[u_parent] += size[v_parent];
+    }
+    }
+    
+    bool isCycle(int V, vector<int> adj[]) {
+        
+    vector<int>parent(V,0);
+    vector<int>size(V,1);
+    
+    for(int i=0;i<V;i++){
+    parent[i] = i;
+    }
+    
+    for(int u=0;u<V;u++){
+    for(auto &v : adj[u]){
+    
+    if(u < v){
+       
+    int u_parent = find(u,parent);
+    int v_parent = find(v,parent);
+    
+    if(u_parent == v_parent){
+    return true;
+    }
+    U(u,v,parent,size);
+    }
+    }
+    }
+    return false;
+    }
+};
