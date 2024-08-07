@@ -3,7 +3,6 @@ class Solution
 public:
   vector<vector<int>> printGraph(int V, vector<pair<int, int>> edges)
   {
-
     vector<vector<int>> ans(V);
 
     for (auto it : edges)
