@@ -1,4 +1,4 @@
-⦿ Date -> 26-July-2024
+⦿ 𝗗𝗮𝘁𝗲 = 𝟮𝟲-𝗝𝘂𝗹𝘆-𝟮𝟬𝟮𝟰
 
 🚩 Palindromic DP ..................
 
@@ -8,9 +8,68 @@
 4. Palindrome Partitioning - 1
 5. Palindrome Partitioning - 2
 
-⦿ Date -> 27-July-2024
+⦿ 𝗗𝗮𝘁𝗲 = 𝟮7-𝗝𝘂𝗹𝘆-𝟮𝟬𝟮𝟰
 
 🚩 Palindromic DP ..................
 
 1. Sieve Algo (pow(x,n)).
 2. minimum number of characters to be inserted to convert it to a palindrome.
+
+⦿ 𝗗𝗮𝘁𝗲 = 𝟮8-𝗝𝘂𝗹𝘆-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. BFS of Graph 
+2. DFS of Graph
+3. Number of Provinces.
+4. Detect Cycle in Undirected Graph - (using BFS & DFS).
+
+⦿ 𝗗𝗮𝘁𝗲 = 𝟮9-𝗝𝘂𝗹𝘆-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. Topological Sort of Graph (DFS).
+2. Kahn's Algorithms (Topological Sort - BFS).
+3. Detect Cycle in Directed Graph - (using BFS & DFS).
+
+⦿ 𝗗𝗮𝘁𝗲 = 30-𝗝𝘂𝗹𝘆-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. Course Schedule-1
+2. Course Schedule-2
+3. Is Graph Bipartite?
+
+⦿ 𝗗𝗮𝘁𝗲 = 31-𝗝𝘂𝗹𝘆-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. DSU (Disjoint Set Union).
+2. Satisfiability of Equality Equations.
+
+⦿ 𝗗𝗮𝘁𝗲 = 01-August-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. Number of Operations to Make Network Connected.
+2. Count Unreachable Pairs of Nodes in an Undirected Graph.
+3. Dijkstra's Algorithm | PART-1 (Using Priority Queue).
+4. Dijkstra's Algorithm | PART-2 (Using Set).
+5. Network Delay Time.
+
+⦿ 𝗗𝗮𝘁𝗲 = 02-August-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. Bellman Ford Algorithms.
+2. Floyd Warshall Algorithms.
+3. Minimum Spanning Tree.
+4. Prim's Algoritms for finding MST.
+
+⦿ 𝗗𝗮𝘁𝗲 = 03-August-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. Kruskal's Algorithm | Minimum Spanning Tree.
+2. 
+
