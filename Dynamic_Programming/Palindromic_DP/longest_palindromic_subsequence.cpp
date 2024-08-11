@@ -1,4 +1,15 @@
-// Time complexity : O(N*N);
+// There are 2 methods to solve this questions ................
+// First is using the LCS code...
+
+// step 1 = reverse the given string
+// step 2 =  and then find the LCS of string and after reverseing strength.....
+// hence this the ans.....
+
+// ---------------------------------------------------------
+
+// using the second approch ..... using Memoization .....
+
+// Time complexity : O(N*N) + O(N);
 // Space complexity : O(N*N);
 
 class Solution {
