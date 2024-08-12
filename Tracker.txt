@@ -71,5 +71,97 @@
 🚩 Graph ..................
 
 1. Kruskal's Algorithm | Minimum Spanning Tree.
-2. 
+
+
+⦿ 𝗗𝗮𝘁𝗲 = 04-August-𝟮𝟬𝟮𝟰
+
+🚩 DP ..................
+
+1. Climbing Stairs.
+2. Fibonacchi number.
+
+
+⦿ 𝗗𝗮𝘁𝗲 = 05-August-𝟮𝟬𝟮𝟰
+
+🚩 DP ..................
+
+1. Min Cost Climbing Stairs.
+2. Frog Jump
+3. House Robber - 1
+4. House Robber - 2
+
+
+⦿ 𝗗𝗮𝘁𝗲 = 06-August-𝟮𝟬𝟮𝟰
+
+🚩 DP ..................
+
+1. Buy and Sell Stock - 1 
+2. Buy and Sell Stock - 2
+3. Buy and Sell Stock - 3
+
+⦿ 𝗗𝗮𝘁𝗲 = 07-August-𝟮𝟬𝟮𝟰
+
+🚩 DP ..................
+
+1. Buy and Sell Stock - 4 
+2. Buy and Sell Stock - with cooldown
+3. Buy and Sell Stock - with fee
+
+⦿ 𝗗𝗮𝘁𝗲 = 08-August-𝟮𝟬𝟮𝟰
+
+🚩 DP ..................
+
+1. LCS (longest common subsequence)
+2. Printing the LCS
+
+⦿ 𝗗𝗮𝘁𝗲 = 09-August-𝟮𝟬𝟮𝟰
+
+🚩 DP ..................
+
+1. Longest Common Substring .
+2. Longest Palindromic Subsequence.
+3. Longest Palindromic Substring.
+
+
+⦿ 𝗗𝗮𝘁𝗲 = 10-August-𝟮𝟬𝟮𝟰
+
+🚩 DP ..................
+
+1. Unique Path - 1
+2. MCM (Matrix chain multiplication) - recursion + memoization...
+3. Matrix Chain Multiplication  (bottom up)
+4. Minimum Cost to Cut a Stick
+
+
+⦿ 𝗗𝗮𝘁𝗲 = 11-August-𝟮𝟬𝟮𝟰
+
+🚩 DP ..................
+
+1.  Minimum insertions to make string palindrome.
+2. Minimum Insertions/Deletions to Convert String 
+
+⦿ 𝗗𝗮𝘁𝗲 = 12-August-𝟮𝟬𝟮𝟰
+
+🚩 DP ..................
+
+1. Shortest Common Supersequence. 
+2. Distinct Subsequences. 
+3.  Edit Distance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,7 +1,7 @@
 
 // Bottom Up (tabulation) .......
 // Time Complexity : O(N*M); 
-// Space Complexity : O(N+M);
+// Space Complexity : O(N*M);
 
 class Solution {
   public:

@@ -27,7 +27,7 @@ public:
 // Recusion + Memoization solution .....
 
 // Time Complexity : O(N*M); 
-// Space Complexity : O(N+M) + O(N+M);
+// Space Complexity : O(N*M) + O(N*M);
 
 
 class Solution {
@@ -61,7 +61,7 @@ public:
 
 // Bottom Up (tabulation) .......
 // Time Complexity : O(N*M); 
-// Space Complexity : O(N+M);
+// Space Complexity : O(N*M);
 class Solution {
 public:
 

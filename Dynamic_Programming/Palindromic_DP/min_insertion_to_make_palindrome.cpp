@@ -17,9 +17,11 @@ public:
 
                 if (s[i] == s[j] && L == 2) {
                     t[i][j] = 0;
-                } else if (s[i] == s[j]) {
+                }
+                else if (s[i] == s[j]) {
                     t[i][j] = t[i + 1][j - 1];
-                } else {
+                } 
+                else {
                     t[i][j] = 1 + min(t[i + 1][j], t[i][j - 1]);
                 }
             }
