@@ -130,14 +130,14 @@
 1. Unique Path - 1
 2. MCM (Matrix chain multiplication) - recursion + memoization...
 3. Matrix Chain Multiplication  (bottom up)
-4. Minimum Cost to Cut a Stick
+4. Minimum Cost to Cut a Stick.
 
 
 ⦿ 𝗗𝗮𝘁𝗲 = 11-August-𝟮𝟬𝟮𝟰
 
 🚩 DP ..................
 
-1.  Minimum insertions to make string palindrome.
+1. Minimum insertions to make string palindrome.
 2. Minimum Insertions/Deletions to Convert String 
 
 ⦿ 𝗗𝗮𝘁𝗲 = 12-August-𝟮𝟬𝟮𝟰
@@ -145,15 +145,18 @@
 🚩 DP ..................
 
 1. Shortest Common Supersequence. 
-2. Distinct Subsequences. 
-3.  Edit Distance.
+2. LIS (longest increasing subsequence) using 2D dp - Recursion + memoization.
+3. LIS (longest increasing subsequence) using 2D dp - tabulation + space optimization.
 
 
+⦿ 𝗗𝗮𝘁𝗲 = 13-August-𝟮𝟬𝟮𝟰
 
+🚩 DP ..................
 
-
-
-
+1. LIS(longest increasing subseauence) using 1D Dp (tabulation only).
+2. Printing Longest Increasing Subsequence using 1D Dp.
+3. LIS (longest increasing subsequence) using Binary Search.
+4. Number of Longest Increasing Subsequences.
 
 
 
