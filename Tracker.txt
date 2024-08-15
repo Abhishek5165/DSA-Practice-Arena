@@ -168,8 +168,31 @@
 3. Combinational Sum - 3
 4. Combinational Sum - 4
 
+⦿ 𝗗𝗮𝘁𝗲 = 15-August-𝟮𝟬𝟮𝟰
 
+🚩 Linked List ..................
 
+1.  Reverse the Linked List.
+2.  Middle of the Linked List.
+3.  Check Palindrome - Linked List...
+4.  Detect a loop in LL
+5.  Find the starting point in LL.
+6.  Length of Loop in LL
+7.  Segrregate odd and even nodes in LL.
+8.  Remove Nth node from the back of the LL
+9.  Delete the middle node of LL
+10. Add 1 number given as Linked List.
+
+⦿ 𝗗𝗮𝘁𝗲 = 16-August-𝟮𝟬𝟮𝟰
+
+🚩 Linked List ..................
+
+1. Add 2 numbers in LL
+2. Merge 2 sorted LL
+3. Sort LL (Merge Sort).
+4. Sort a LL of 0's 1's and 2's by changing links
+5. Find the intersection point of Y LL
+6. Rotate a LL
 
 
 
