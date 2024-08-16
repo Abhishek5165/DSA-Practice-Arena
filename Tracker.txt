@@ -193,7 +193,13 @@
 4. Sort a LL of 0's 1's and 2's by changing links
 5. Find the intersection point of Y LL
 6. Rotate a LL
+7. Reverse LL in group of given size K
 
 
+⦿ 𝗗𝗮𝘁𝗲 = 17-August-𝟮𝟬𝟮𝟰
 
+🚩 Linked List ..................
+
+1. Flattening of LL
+2.  Copy List with Random Pointer
 
