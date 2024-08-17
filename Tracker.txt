@@ -203,4 +203,8 @@
 1. Flattening of LL
 2. Copy List with Random Pointer.
 3. Merge K sorted Linked List
+4. Reorder Linked List.
+5. Remove Duplicates From Sorted List.
+6. Remove Duplicates From UnSorted List
+7. Insertion Sort List.
 
