@@ -172,9 +172,9 @@
 
 🚩 Linked List ..................
 
-1.  Reverse the Linked List.
-2.  Middle of the Linked List.
-3.  Check Palindrome - Linked List...
+1.  Reverse the Linked List.(both iterative & recursive).
+2.  Middle of the Linked List.(iterstive & recursive).
+3.  Check Palindrome - Linked List (iterstive & recursive).
 4.  Detect a loop in LL
 5.  Find the starting point in LL.
 6.  Length of Loop in LL
@@ -188,7 +188,7 @@
 🚩 Linked List ..................
 
 1. Add 2 numbers in LL
-2. Merge 2 sorted LL
+2. Merge 2 sorted LL (iterstive & recursive).
 3. Sort LL (Merge Sort).
 4. Sort a LL of 0's 1's and 2's by changing links
 5. Find the intersection point of Y LL
@@ -215,3 +215,20 @@
 1. Remove Linked List Elements.
 2. LRU cache
 
+⦿ 𝗗𝗮𝘁𝗲 = 19-August-𝟮𝟬𝟮𝟰
+
+🚩 Binary Tree ..................
+
+1. InOrder Traversal (using recursion + one stack).
+2. PreOrder Traversal (using recursion + one stack).
+3. PostOrder Traversal (using recursion + one stack + two stack).
+4. InOrder, PreOrder & PostOrder in a single Program.
+5. Level order traversal.
+6. Array to Binary Tree.
+
+
+⦿ 𝗗𝗮𝘁𝗲 = 20-August-𝟮𝟬𝟮𝟰
+
+🚩 Binary Tree ..................
+
+1. 

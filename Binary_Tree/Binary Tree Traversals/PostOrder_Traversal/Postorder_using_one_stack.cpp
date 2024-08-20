@@ -1,77 +1,37 @@
-#include <iostream>
-#include <stack>
-using namespace std;
-
-class Node
-{
-
+class Solution {
 public:
-    int Data;
-    Node *Left;
-    Node *Right;
-
-    Node(int D)
-    {
-        this->Data = D;
-        this->Left = NULL;
-        this->Right = NULL;
-    }
-};
-
-Node *CreateBT(Node *&root)
-{
-
-    int Val;
-    cout << "\nEnter the Node Value : ";
-    cin >> Val;
-
-    root = new Node(Val);
-
-    if (Val == -1)
-    {
-        return NULL;
-    }
-    else
-    {
-
-        cout << "\nEnter the Left Node Value of the Node " << Val;
-        root->Left = CreateBT(root->Left);
-
-        cout << "\nEnter the Right Node Value of the Node " << Val;
-        root->Right = CreateBT(root->Right);
-
-        return root;
-    }
-}
-
-void Postorder_using_recursion(Node *root){
-
+    vector<int> postorderTraversal(TreeNode* root) {
+    vector<int>ans;
     if(root == NULL){
-    return;
+    return ans;
+    }
+    stack<TreeNode*>st;
+    TreeNode* curr = root;
+    TreeNode* temp = root;
+
+    while(curr != NULL || !st.empty()){
+
+    if(curr != NULL){
+    st.push(curr);
+    curr = curr->left;
     }
     else{
-
-    Postorder_using_recursion(root->Left);
-    Postorder_using_recursion(root->Right);
-    cout<<root->Data<<" ";
+    temp = st.top()->right;
+    if(temp == NULL){
+    temp = st.top();
+    st.pop();
+    ans.push_back(temp->val);
+    while(!st.empty() && temp == st.top()->right){
+    temp = st.top();
+    st.pop();
+    ans.push_back(temp->val);
     }
-}
-void Postorder_using_one_stack(Node *root){
-
-
-}
-
-int main(){
-
-    Node *root = NULL;
-
-    root = CreateBT(root);
-
-    cout<<"\nThe Postorder Traversal of the BT is : ";
-    Postorder_using_recursion(root);
-
-    cout<<"\nThe Postorder Traversal of the BT is : ";
-    Postorder_using_one_stack(root);
-
-
-}
+    }
+    else{
+    curr = temp;
+    }
+    }
+    }
+    return ans;
+    }
+};
