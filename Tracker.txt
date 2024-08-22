@@ -232,13 +232,27 @@
 🚩 Binary Tree ..................
 
 1. Height of Binary Tree.
-2. 
+2. Check if the Binary tree is height-balanced or not.
+3. Diameter of Binary Tree.
+4. Maximum path sum.
+5. Check if two trees are identical or not.
+6. Zig-Zag Traversal of Binary Tree.
 
+⦿ 𝗗𝗮𝘁𝗲 = 21-August-𝟮𝟬𝟮𝟰
 
+🚩 Binary Tree ..................
 
+1. Boundary Traversal of Binary Tree.
+2. Vertical Order Traversal of Binary Tree.
 
+⦿ 𝗗𝗮𝘁𝗲 = 22-August-𝟮𝟬𝟮𝟰
 
+🚩 Binary Tree ..................
 
+1. Top View of Binary Tree.
+2. Bottom View of Binary Tree.
+3. Left Side View of Binary Tree.
+4. Right Side View of Binary Tree.
 
 
 
