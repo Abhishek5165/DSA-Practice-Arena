@@ -47,3 +47,31 @@ vector<int> printLeftView(BinaryTreeNode<int> *root) {
   }
   return ans;
 }
+
+
+// Optimise Version ....
+
+// Time Complexity: O(log2N);
+// Space Complexity : O(log2N) + O(H);
+// The size of this result vector is proportional to the height of the Binary Tree which will be log2N when the tree is balanced and O(N) in the worst case of a skewed tree.
+
+void solve(BinaryTreeNode<int> *root, int level, vector<int> &res) {
+  if (root == NULL) {
+    return;
+  }
+  if (res.size() == level) {
+    res.push_back(root->data);
+  }
+  if (root->left != NULL) {
+    solve(root->left, level + 1, res);
+  }
+  if (root->right != NULL) {
+    solve(root->right, level + 1, res);
+  }
+}
+
+vector<int> printLeftView(BinaryTreeNode<int> *root) {
+  vector<int> res;
+  solve(root, 0, res);
+  return res;
+}
