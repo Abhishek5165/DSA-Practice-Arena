@@ -58,17 +58,18 @@ void Postorder(Node *&root)
     }
 }
 
-void Morris(Node *root)
+vector<int> Morris(Node *root)
 {
     if (root == NULL)
     {
         return;
     }
+    vector<int>ans;
     Node *temp = root;
     Node*pre;
      while(temp != NULL){
             if(temp->right == NULL){
-                cout<<temp->Data<<" ";
+                 ans.push_back(temp->Data);
                 temp = temp->left;
             }
             else{
@@ -77,7 +78,7 @@ void Morris(Node *root)
                     pre = pre->left;
                 
                 if(pre->left == NULL){
-                   cout<<temp->Data<<" ";
+                   ans.push_back(temp->Data);
                     pre->left = temp;
                     temp = temp->right;
                 }
@@ -87,6 +88,8 @@ void Morris(Node *root)
                 }
             }
         }
+        reverse(ans.begin(),ans.end());
+        return ans;
 }
 
 int main()

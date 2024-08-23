@@ -81,17 +81,17 @@ void Morris(Node *root)
                 {
                     prev = prev->right;
                 }
-                    if (prev->right == NULL)
-                    {
-                        prev->right = temp;
-                        temp = temp->left;
-                    }
-                    else
-                    {
-                        prev->right = NULL;
-                        cout << temp->Data << " ";
-                        temp = temp->right;
-                    }
+                if (prev->right == NULL)
+                {
+                    prev->right = temp;
+                    temp = temp->left;
+                }
+                else
+                {
+                    prev->right = NULL;
+                    cout << temp->Data << " ";
+                    temp = temp->right;
+                }
             }
         }
     }

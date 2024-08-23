@@ -244,6 +244,9 @@
 
 1. Boundary Traversal of Binary Tree.
 2. Vertical Order Traversal of Binary Tree.
+3. Morris InOrder Traversal of Binary Tree.
+4. Morris PreOrder Traversal of Binary Tree.
+5. Morris PostOrder Traversal of Binary Tree.
 
 ⦿ 𝗗𝗮𝘁𝗲 = 22-August-𝟮𝟬𝟮𝟰
 
@@ -253,7 +256,12 @@
 2. Bottom View of Binary Tree.
 3. Left Side View of Binary Tree.
 4. Right Side View of Binary Tree.
-
+5. Symmetric Binary Tree.
+6. LCA in Binary Tree.
+7. Check Completeness of a Binary Tree.
+8. Count total Nodes in a COMPLETE Binary Tree.
+9. Check for Children Sum Property.
+10. Path Sum (root to target).
 
 
 
