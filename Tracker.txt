@@ -257,11 +257,24 @@
 3. Left Side View of Binary Tree.
 4. Right Side View of Binary Tree.
 5. Symmetric Binary Tree.
-6. LCA in Binary Tree.
-7. Check Completeness of a Binary Tree.
-8. Count total Nodes in a COMPLETE Binary Tree.
-9. Check for Children Sum Property.
-10. Path Sum (root to target).
+
+
+𝗗𝗮𝘁𝗲 = 23-August-𝟮𝟬𝟮𝟰
+
+🚩 Binary Tree ..................
+
+1. LCA in Binary Tree.
+2. Check Completeness of a Binary Tree.
+3. Count total Nodes in a COMPLETE Binary Tree.
+4. Check for Children Sum Property.
+5. Path Sum (root to target).
+
+𝗗𝗮𝘁𝗲 = 24-August-𝟮𝟬𝟮𝟰
+
+🚩 Binary Tree ..................
+
+1. Construct Binary Tree from inorder and preorder.
+2. Construct the Binary Tree from Postorder and Inorder Traversal.
 
 
 
