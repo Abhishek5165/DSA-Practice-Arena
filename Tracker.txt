@@ -213,7 +213,7 @@
 🚩 Linked List ..................
 
 1. Remove Linked List Elements.
-2. LRU cache
+2. LRU cache.
 
 ⦿ 𝗗𝗮𝘁𝗲 = 19-August-𝟮𝟬𝟮𝟰
 
@@ -275,6 +275,13 @@
 
 1. Construct Binary Tree from inorder and preorder.
 2. Construct the Binary Tree from Postorder and Inorder Traversal.
+3. Serialize and deserialize Binary Tree.
+4. Invert Binary Tree.
+5. All Root to Leaf Paths In Binary Tree.
 
+𝗗𝗮𝘁𝗲 = 25-August-𝟮𝟬𝟮𝟰
 
+🚩 Binary Tree ..................
 
+1. Maximum Width of a Binary Tree.
+2.  Flatten Binary Tree to Linked List.
