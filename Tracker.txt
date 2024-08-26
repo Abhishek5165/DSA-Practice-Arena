@@ -284,4 +284,8 @@
 🚩 Binary Tree ..................
 
 1. Maximum Width of a Binary Tree.
-2.  Flatten Binary Tree to Linked List.
+2. Flatten Binary Tree to Linked List.
+3. Minimum time taken to BURN the Binary Tree from a Node.
+4. Print all the Nodes at a distance of K in a Binary Tree.
+
+
