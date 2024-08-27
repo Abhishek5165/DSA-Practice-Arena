@@ -4,29 +4,31 @@
 // space complexity : O(recursion stack space)
 
 class Solution {
-public:
-    bool ans(TreeNode* root,long left,long  right) {
-
-        if (root == NULL) {
-            return true;
-        }
-        if(root->val <= left || root->val >= right){
-        return false;
-        }
-        return ans(root->left,left,root->val) && 
-        ans(root->right,root->val,right);
-    }
-    bool isValidBST(TreeNode* root) {
-    
+public: 
+    bool solve(TreeNode* root, int mini,int maxxi){
     if(root == NULL){
-        return true;
+    return true;
     }
-    long left = LONG_MIN;
-    long right = LONG_MAX;
+    if((root->val > mini && root->val < maxxi) && 
+    solve(root->left,mini,root->val) && 
+    solve(root->right,root->val,maxxi)){
+    return true;
+    }
+    return false;
+    }
 
-    return ans(root,left,right);
+    bool isValidBST(TreeNode* root) {
+
+    int maxxi = INT_MAX;
+    int mini = INT_MIN;
+
+    if(root == NULL){
+    return true;
+    }
+    return solve(root,mini,maxxi);
     }
 };
+
 
 // Approch - 2 using inorder  
 

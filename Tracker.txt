@@ -288,4 +288,41 @@
 3. Minimum time taken to BURN the Binary Tree from a Node.
 4. Print all the Nodes at a distance of K in a Binary Tree.
 
+𝗗𝗮𝘁𝗲 = 26-August-𝟮𝟬𝟮𝟰
+
+🚩 Binary Search Tree ..................
+
+1. Convert Sorted Array to Binary Search Tree.
+2. Search in a Binary Search Tree.
+3. Find Min/Max in BST.
+4. Ceil in a Binary Search Tree.
+5. LCA in Binary Search Tree.
+
+𝗗𝗮𝘁𝗲 = 27-August-𝟮𝟬𝟮𝟰
+
+🚩 Binary Search Tree ..................
+
+1. Floor in a Binary Search Tree.
+2. Insert into a Binary Search Tree.
+3. Find K-th smallest element in BST.
+4. Find K-th largest element in BST.
+5. Check if a tree is a BST or BT.
+
+𝗗𝗮𝘁𝗲 = 28-August-𝟮𝟬𝟮𝟰
+
+🚩 Binary Search Tree ..................
+
+1. 
+
+
+
+
+
+
+
+
+
+
+
+
 
