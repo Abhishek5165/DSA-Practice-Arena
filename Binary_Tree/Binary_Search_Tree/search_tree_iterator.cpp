@@ -1,5 +1,5 @@
 // time complexity : O(1);
-// space complexity : O(h);
+// space complexity : O(H);
 
 class BSTIterator {
 public:
@@ -9,10 +9,8 @@ public:
     pushALL(root);
     }
 
-    void pushALL(TreeNode* node){
-
-    while(node!=NULL){
-
+    void pushAll(TreeNode* node){
+    for(;node != NULL;){
     st.push(node);
     node = node->left;
     }

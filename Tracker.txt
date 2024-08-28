@@ -306,19 +306,22 @@
 2. Insert into a Binary Search Tree.
 3. Find K-th smallest element in BST.
 4. Find K-th largest element in BST.
-5. Check if a tree is a BST or BT.
+5. Check if a tree is a BST or BT or (Validate BST).
 
 𝗗𝗮𝘁𝗲 = 28-August-𝟮𝟬𝟮𝟰
 
 🚩 Binary Search Tree ..................
 
-1. 
-
-
-
-
-
-
+1. Construct a BST from a preorder traversal.
+2. Inorder  Predecessor in BST.
+3. Inorder Successor in BST. 
+4. Merge 2 Binary Tree (very Easy).
+5. Convert Binary Tree to BST without changing Structure of BT.
+6. Merge 2 BST.
+7. Two Sum In BST | Check if there exists a pair with Sum K.
+8. Delete a Node in Binary Search Tree.
+9. Recover BST | Correct BST with two nodes swapped.
+10.Largest BST in Binary Tree.
 
 
 
