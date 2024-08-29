@@ -324,6 +324,41 @@
 10.Largest BST in Binary Tree.
 
 
+𝗗𝗮𝘁𝗲 = 29-August-𝟮𝟬𝟮𝟰
+
+🚩 Stack & Queues ..................
+
+1. Implement Stack using Arrays.
+2. Implement stack using linked list.
+3. Implement stack using Single Queue.
+4. Implement stack using 2 Queues.
+
+5. Infix to Postfix Conversion using Stack.
+6. Convert Infix To Prefix Notation.
+
+7. Postfix to Infix.
+8. Prefix to Infix Conversion.
+
+9. Postfix to Prefix Conversion.
+10.Prefix to Postfix Conversion.
+
+𝗗𝗮𝘁𝗲 = 29-August-𝟮𝟬𝟮𝟰
+
+
+🚩 Stack & Queues ..................
+
+1. Check for balanced paranthesis.
+2. Evaluate Reverse Polish Notation.
+3. 
+
+
+
+
+
+
+
+
+
 
 
 
