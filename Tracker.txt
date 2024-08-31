@@ -342,20 +342,26 @@
 9. Postfix to Prefix Conversion.
 10.Prefix to Postfix Conversion.
 
-𝗗𝗮𝘁𝗲 = 29-August-𝟮𝟬𝟮𝟰
+𝗗𝗮𝘁𝗲 = 30-August-𝟮𝟬𝟮𝟰
 
 
 🚩 Stack & Queues ..................
 
 1. Check for balanced paranthesis.
 2. Evaluate Reverse Polish Notation.
-3. 
+3. Implement Min Stack.
+4. Next Greater Element.
+5. Next Greater Element 2 (circular).
 
 
+𝗗𝗮𝘁𝗲 = 31-August-𝟮𝟬𝟮𝟰
 
 
+🚩 Stack & Queues ..................
 
-
+1. Next Smaller Element.
+2. Trapping Rainwater.
+3. Asteroid Collision.
 
 
 
