@@ -362,11 +362,14 @@
 1. Next Smaller Element.
 2. Trapping Rainwater.
 3. Asteroid Collision.
+4. Sum of Subarray Minimums.
+5. Sum of Subarray Ranges.(Extended version of Above Problem).
+
+𝗗𝗮𝘁𝗲 = 1-September-𝟮𝟬𝟮𝟰
 
 
+🚩 Stack & Queues ..................
 
-
-
-
-
+1. Remove-k-digits From String to form minimum Number.
+2. 
 
