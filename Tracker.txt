@@ -372,7 +372,7 @@
 
 1. Remove-k-digits From String to form minimum Number.
 2. Largest Rectangle in Histogram.
-3. 
+3. 132 Pattern (prev grater element).
 
 
 
