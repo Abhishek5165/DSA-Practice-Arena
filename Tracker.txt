@@ -371,5 +371,14 @@
 🚩 Stack & Queues ..................
 
 1. Remove-k-digits From String to form minimum Number.
-2. 
+2. Largest Rectangle in Histogram.
+3. 
+
+
+
+
+
+
+
+
 

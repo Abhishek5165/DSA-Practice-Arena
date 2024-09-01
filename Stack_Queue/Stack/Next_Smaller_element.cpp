@@ -1,23 +1,19 @@
-// Time Complexity : O(2N);
-// Space Complexity : O(N);
+// Expected Time Complexity: O(N);
+// Expected Auxiliary Space: O(N);
 
-vector<int> Solution::prevSmaller(vector<int> &A) {
-
-int n = A.size();
-stack<int>st;
-vector<int>ans;
-
-for(int i=0;i<n;i++){
-while(!st.empty() && st.top() >= A[i]){
-st.pop();
-}
-if(st.empty()){
-ans.push_back(-1);
-}
-else{
-ans.push_back(st.top());
-}
-st.push(A[i]);
-}
-return ans;
-}
+class Solution{
+    public:
+    vector<int> help_classmate(vector<int> arr, int n){ 
+    vector<int>ans(n);
+    stack<int>st;
+    for(int i=n-1;i>=0;i--){
+    
+    while(!st.empty() && st.top() >= arr[i]){
+    st.pop();
+    }
+    ans[i] = st.empty() ? -1 : st.top();
+    st.push(arr[i]);
+    }
+    return ans;
+    } 
+};
