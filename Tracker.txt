@@ -375,6 +375,36 @@
 3. 132 Pattern (prev grater element).
 
 
+𝗗𝗮𝘁𝗲 = 2-September-𝟮𝟬𝟮𝟰
+
+
+🚩 Arrays ..................
+
+1.  Largest/Smallest Element in an Array.
+2.  Second Largest/Smallest Element in an Array without sorting.
+3.  Check if the array is sorted.
+4.  Remove duplicates from Sorted array.
+5.  Left Rotate an array by one place.
+6.  Right rotate an array by one places.
+7.  Left Rotate an array by D place.
+8.  Right Rotate an array by D place.
+9.  Move Zeros to end.
+10. Find the Union.
+
+11. Find missing number in an array.
+12. Maximum Consecutive Ones.
+13. Find the number that appears once, and other numbers twice.
+14. Longest subarray with given sum K(positives).
+15. Longest subarray with sum K (Positives + Negatives).
+
+
+
+
+
+
+
+
+
 
 
 
