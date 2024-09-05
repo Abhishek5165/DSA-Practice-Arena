@@ -38,20 +38,6 @@ void sortArray(vector<int> &arr, int n)
         arr[i] = 2; // replacing 2's
 }
 
-int main()
-{
-    int n = 6;
-    vector<int> arr = {0, 2, 1, 2, 0, 1};
-    sortArray(arr, n);
-    cout << "After sorting:" << endl;
-    for (int i = 0; i < n; i++)
-    {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-    return 0;
-}
-
 
 // ------------------------------------------------------------------
 
@@ -74,8 +60,7 @@ public:
         while (mid <= high)
         {
 
-            if (nums[mid] == 0)
-            {
+            if (nums[mid] == 0){
 
                 swap(nums[low], nums[mid]);
                 mid++;

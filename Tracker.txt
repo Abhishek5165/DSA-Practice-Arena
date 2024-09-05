@@ -391,20 +391,38 @@
 9.  Move Zeros to end.
 10. Find the Union.
 
-11. Find missing number in an array.
-12. Maximum Consecutive Ones.
-13. Find the number that appears once, and other numbers twice.
-14. Longest subarray with given sum K(positives).
-15. Longest subarray with sum K (Positives + Negatives).
+11. Find the Intersection.
+12. Find missing number in an array.
+13. Maximum Consecutive Ones.
+14. Find the number that appears once, and other numbers twice.
+15. Longest subarray with given sum K(positives).
+16. Longest subarray with sum K (Positives + Negatives).
 
 
+𝗗𝗮𝘁𝗲 = 3-September-𝟮𝟬𝟮𝟰
 
+🚩 Arrays ..................
 
+1.  2 - Sum.
+2.  Sort an array of 0's 1's and 2's.
+3.  Majority Element (>n/2 times).
+4.  Kadane's Algorithm, maximum subarray sum.
+5.  Print subarray with maximum subarray sum (extended version of above problem).
+6.  Rearrange the array in alternating positive and negative items.
 
+𝗗𝗮𝘁𝗲 = 4-September-𝟮𝟬𝟮𝟰
 
+🚩 Arrays ..................
 
+1.  Generate All Permutations.
+2.  Next Permutation.
+3.  Leaders in an Array problem.
 
+𝗗𝗮𝘁𝗲 = 5-September-𝟮𝟬𝟮𝟰
 
+🚩 Arrays ..................
+
+1. Longest Consecutive Sequence in an Array.
 
 
 
