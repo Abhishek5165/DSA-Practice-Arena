@@ -423,8 +423,10 @@
 🚩 Arrays ..................
 
 1. Longest Consecutive Sequence in an Array.
-
-
+2. Set Matrix Zeros.
+3. Rotate Matrix by 90 degrees clockwise.
+4. Print the matrix in spiral manner. 
+5. Count subarrays with given sum.
 
 
 
