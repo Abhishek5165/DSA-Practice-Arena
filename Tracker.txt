@@ -214,6 +214,7 @@
 
 1. Remove Linked List Elements.
 2. LRU cache.
+3. Insert Greatest Common Divisors in Linked List.
 
 ⦿ 𝗗𝗮𝘁𝗲 = 19-August-𝟮𝟬𝟮𝟰
 
@@ -429,6 +430,14 @@
 5. Count subarrays with given sum.
 
 
+𝗗𝗮𝘁𝗲 = 6-September-𝟮𝟬𝟮𝟰  to 𝗗𝗮𝘁𝗲 = 10-September-𝟮𝟬𝟮𝟰
+
+(っ◔◡◔)っ ♥ Something Went Wrong ! ♥
 
 
+𝗗𝗮𝘁𝗲 = 11-September-𝟮𝟬𝟮𝟰
+
+🚩 Arrays ..................
+
+1. 
 
