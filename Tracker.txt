@@ -406,7 +406,7 @@
 
 1.  2 - Sum.
 2.  Sort an array of 0's 1's and 2's.
-3.  Majority Element (>n/2 times).
+3.  Majority Element (>n/2 times) (Moore Voting Algorithm).
 4.  Kadane's Algorithm, maximum subarray sum.
 5.  Print subarray with maximum subarray sum (extended version of above problem).
 6.  Rearrange the array in alternating positive and negative items.
@@ -426,8 +426,8 @@
 1. Longest Consecutive Sequence in an Array.
 2. Set Matrix Zeros.
 3. Rotate Matrix by 90 degrees clockwise.
-4. Print the matrix in spiral manner. 
-5. Count subarrays with given sum.
+4. Rotate matrix by 90 degree anticlockwise.
+5. Rotate matrix by 180 degree.
 
 
 𝗗𝗮𝘁𝗲 = 6-September-𝟮𝟬𝟮𝟰  to 𝗗𝗮𝘁𝗲 = 10-September-𝟮𝟬𝟮𝟰
@@ -439,5 +439,15 @@
 
 🚩 Arrays ..................
 
-1. 
+1. Print the matrix in spiral manner (i)
+2. 2-Sum
+3. 3-Sum
+4. 4-Sum
+5. Majority Element (n/3 times).(Extended version of Moore Voting Algorithm)
 
+
+𝗗𝗮𝘁𝗲 = 12-September-𝟮𝟬𝟮𝟰
+
+🚩 Arrays ..................
+
+1. 
