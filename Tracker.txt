@@ -450,4 +450,20 @@
 
 🚩 Arrays ..................
 
-1. 
+1. Largest Subarray with 0 Sum.
+2. Count number of subarrays with given xor K.
+3. Merge two sorted arrays without extra space.
+4. Maximum Product Subarray.
+5. Find the repeating and missing number.
+
+
+𝗗𝗮𝘁𝗲 = 13-September-𝟮𝟬𝟮𝟰
+
+🚩 Arrays ..................
+
+1. Pascal's Triangle.
+2. Merge Overlapping Subintervals.
+3. Count Inversions.
+4. Reverse Pairs.
+
+
