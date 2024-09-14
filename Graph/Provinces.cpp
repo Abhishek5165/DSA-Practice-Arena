@@ -134,3 +134,48 @@ public:
         return count;
     }
 };
+
+
+// if it is not a binary matrix then how to find the connected components...
+// Time complexity : O(V+E);
+// Space complexity : O(V);
+
+class Solution {
+void solve(int start, vector<vector<int>>& edges,
+vector<int>&visited){
+        
+    queue<int>Q;
+    Q.push(start);
+    visited[start] = 1;
+    
+    while(!Q.empty()){
+        
+    int node = Q.front();
+    Q.pop();
+    
+    for(auto &edge : edges){
+    if(edge[1] == node && !visited[edge[0]]){
+    Q.push(edge[0]);
+    visited[edge[0]] = 1;
+    }
+    else if(edge[0] == node && !visited[edge[1]]){
+    Q.push(edge[1]);
+    visited[edge[1]] = 1;
+    }
+    }
+    }
+    }
+public:
+    int countComponents(int n, vector<vector<int>>& edges) {
+    int count = 0;
+    vector<int>visited(n,0);
+
+    for(int i=0;i<n;i++){
+    if(!visited[i]){
+    solve(i,edges,visited);
+    count++;
+    }
+    }
+    return count;
+    }
+};
