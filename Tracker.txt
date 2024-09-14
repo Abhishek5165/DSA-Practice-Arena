@@ -466,11 +466,19 @@
 3. Count Inversions.
 4. Reverse Pairs.
 
+-------------------------------------------------------------------------------
+
 
 ⦿ 𝗗𝗮𝘁𝗲 = 14-September-𝟮𝟬𝟮𝟰
 
 🚩 Graph ..................
 
 1. Number of Islands
-2. 
+2. Max Area of Islands
+3. Island Perimeter
+4. Number of Closed Islands
+5. Count Sub Islands
+6. Flood fill
+7. Number of Connected Components In An Undirected Graph.
+
 
