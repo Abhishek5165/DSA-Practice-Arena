@@ -467,6 +467,8 @@
 4. Reverse Pairs.
 
 -------------------------------------------------------------------------------
+.............................🤝 Revision 🤝...................................
+-------------------------------------------------------------------------------
 
 
 ⦿ 𝗗𝗮𝘁𝗲 = 14-September-𝟮𝟬𝟮𝟰
@@ -488,7 +490,26 @@
 
 1. Find a Safe Walk Through a Grid.
 2. Shortest Path in a Grid with Obstacles Elimination.
-3. 
+
+
+⦿ 𝗗𝗮𝘁𝗲 = 16-September-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. Topo Sort.
+2. Kahn's Algorithm.
+3. Cycle Detection in Directed Graph (BFS). = using kahn's algo...
+4. Cycle Detection in Directed Graph (DFS). =   using path visited + visited.
+5. Course Schedule - I
+6. Course Schedule - II
+
+
+⦿ 𝗗𝗮𝘁𝗲 = 17-September-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. 
+
 
 
 

@@ -3,34 +3,36 @@
 
 class Solution {
   public:
-    
-    bool Cycle(int start,vector<int> adj[],vector<bool>&visited,vector<bool>&inrecurr){
-    
-    visited[start] = true;
-    inrecurr[start] = true;
-    
-    for(auto &it : adj[start]){
+    bool solve(int start,vector<int> adj[],vector<int>&visited,
+    vector<int>&pathvisited){
         
-    if(visited[it] == false && Cycle(it,adj,visited,inrecurr)){
+    visited[start] = 1;
+    pathvisited[start] = 1;
+    
+    for(auto &it:adj[start]){
+    if(!visited[it]){
+    if(solve(it,adj,visited,pathvisited) == true){
     return true;
     }
-    else if(visited[it] == true && inrecurr[it] == true){
+    }
+    else if(pathvisited[it]){
     return true;
     }
     }
-    inrecurr[start] = false;
+    pathvisited[start] = 0;
     return false;
     }
     
     bool isCyclic(int V, vector<int> adj[]) {
         
-    vector<bool>visited(V,false);
-    vector<bool>inrecurr(V,false);
-
+    vector<int>visited(V,0);
+    vector<int>pathvisited(V,0);
+    
     for(int i=0;i<V;i++){
-        
-    if(!visited[i] && Cycle(i,adj,visited,inrecurr)){
+    if(!visited[i]){
+    if(solve(i,adj,visited,pathvisited) == true){
     return true;
+    }
     }
     }
     return false;
