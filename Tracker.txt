@@ -508,7 +508,19 @@
 
 🚩 Graph ..................
 
-1. 
+1. Cycle Detection in unirected Graph (bfs).
+2.  Cycle Detection in undirected Graph (dfs).
+3. Surrounded Regions (dfs)
+
+
+⦿ 𝗗𝗮𝘁𝗲 = 18-September-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. Djisktra's Algorithm (using priority queue);
+2.  Djisktra's Algorithm (using priority set);
+3. Shortest Path in UG with unit weights.
+
 
 
 
