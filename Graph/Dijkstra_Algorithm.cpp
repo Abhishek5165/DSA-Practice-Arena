@@ -14,7 +14,7 @@ class Solution
     vector<int>result(V,INT_MAX);
     result[S] = 0;
     
-    pq.push({0,S});6
+    pq.push({0,S});
     
     while(!pq.empty()){
     
@@ -61,7 +61,6 @@ class Solution{
     for(auto &vec : adj[node]){
     int newNode = vec[0];
     int wt = vec[1];
-    
     
     if(dist + wt < result[newNode]){
     

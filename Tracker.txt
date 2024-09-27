@@ -518,10 +518,32 @@
 🚩 Graph ..................
 
 1. Djisktra's Algorithm (using priority queue);
-2.  Djisktra's Algorithm (using priority set);
+2. Djisktra's Algorithm (using priority set);
 3. Shortest Path in UG with unit weights.
 
 
+⦿ 𝗗𝗮𝘁𝗲 = 19-September-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. Find Eventual Safe States.
+2. Critical Connections in a Network
+
+
+⦿ 𝗗𝗮𝘁𝗲 = 20-September-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. Is Graph Bipartite?
+2. 0/1 Matrix
+3. Number of Enclaves.
+
+
+⦿ 𝗗𝗮𝘁𝗲 = 21-September-𝟮𝟬𝟮𝟰
+
+🚩 Graph ..................
+
+1. 
 
 
 
